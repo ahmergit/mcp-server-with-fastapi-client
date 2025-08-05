@@ -1,0 +1,5 @@
+fastapi
+mcp
+pydantic
+requests
+uvicorn
