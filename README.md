@@ -30,7 +30,7 @@ Ideal for experimenting with tool invocation, resource access, and extending ser
    ```
 2. Install dependencies using uv:
    ```bash
-   uv add install -r requirements.txt
+   uv add -r requirements.txt
    ```
 3. Run the FastAPI server:
    ```bash
