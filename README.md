@@ -34,11 +34,12 @@ Ideal for experimenting with tool invocation, resource access, and extending ser
    ```
 3. Run the FastAPI server:
    ```bash
-   uv run uvicorn main:app --reload
+   uv run uvicorn main:app --reload --port 8001
    ```
 4. Run the MCP server :
     ```bash
-    uv run uvicorn server:mcp_server --reload
+   uv run uvicorn server:mcp_server --reload
+   ```
 
 ## Contributing
 Contributions are welcome! Please submit a pull request or open an issue to discuss improvements or bugs.
